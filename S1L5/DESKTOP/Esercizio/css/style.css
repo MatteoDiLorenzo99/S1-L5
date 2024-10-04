@@ -1,0 +1,264 @@
+/* Your styles here */
+
+/*ZONE HEADER*/
+.sectionLogo{
+    background-color: black;
+    text-align: left;
+    padding-top: 1.3em;
+    padding-bottom: 1.5em;
+    padding-left: 10px;}
+
+.sectionBanner{
+    background-image: url('./../images/banner.jpg');
+    padding-top: 10em;
+    padding-bottom: 200px;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.LogoImage{
+    width: 12%;
+
+
+}
+
+#H1Banner{
+    text-align: center;
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+.UnderTitleBanner{
+    padding-top: 4px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.8); /* Nero con 80% di trasparenza */
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.ButtonCenter{
+    text-align: center;
+    padding-top: 1.9em;
+    
+}
+
+.ButtonHeader{
+    background-color: #f04c2f ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:white;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px; /* Arrotonda gli angoli */
+    border: none; /* Rimuove il bordo */
+}
+
+/*FINE CSS PER HEADER*/
+
+/*INIZIO CSS PER MAIN*/
+
+.ClasseMain {
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.ContentWrapper {
+    display: flex;
+    align-items: center; /* Allinea verticalmente */
+    justify-content: center;
+    flex-wrap: wrap; /* Assicura che il layout sia responsivo */
+    padding: 2em;
+}
+
+.ImageSection {
+    flex: 1; /* Adatta lo spazio disponibile */
+    display: flex;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+.CirclePhoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.TextSection {
+    flex: 2; /* Assegna più spazio alla sezione di testo */
+    text-align: left;
+}
+
+h2 {
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 1.5em;
+}
+
+.TextSection p {
+    margin-top: 1.2em;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+/*RED SECTION*/
+
+
+/*IL FONT-FAMILY è STATO RIPETUTO PER OGNUNO, PERCHé SE IN FUTURO VOLESSI SOSTITUIRE SOLO 1 FONT, NON AVREI PROBLEMI*/
+.RedSection{
+    background-color: #E22E12;
+    padding-bottom: 6.5em;
+}
+
+h3{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 25px;
+
+}
+
+#PRedSection{
+    color:white;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+h4{
+    padding-top: 2em;
+    padding-bottom: 0.4em;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#CEOText{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+/*END RED SECTION*/
+
+/* INIZIO LAST SECTION*/
+.LastSection {
+    display: flex; /* Usa Flexbox per allineare le immagini e i testi */
+    justify-content: space-between; /* Spazio uniforme tra gli articoli */
+    gap: 20px; /* Distanza tra le colonne */
+    padding-top: 2.5em;
+    margin-bottom: 90px;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LastArticle {
+    width: 30%; /* Ogni articolo occuperà il 30% della larghezza della sezione */
+    border: 1px solid #ccc; /* Aggiunge un bordo grigio chiaro attorno */
+    padding-bottom: 2.5em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+    text-align: center; /* Centra il testo */
+}
+
+
+.Photo {
+    width: 100%; /* L'immagine si adatta alla larghezza del contenitore */
+    height: 200px; /* Imposta un'altezza fissa per uniformare le immagini */
+    object-fit: cover; /* Mantiene le proporzioni e taglia l'immagine se necessario */
+    display: block;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #25a2c3;
+    font-size: 18px;
+    margin-bottom: 0.5em;
+}
+
+.TextSection {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 1em;
+}
+
+/* FINE LAST SECTION*/
+
+/*FINE CSS PER MAIN*/
+/*INIZIO FOOTER SECTION*/
+.FooterSection{
+    background-color: #25a2c3;
+}
+
+#H1Footer{
+    padding-top: 1.5em;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+ul{
+   
+    padding-top: 15px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+ul li a{
+    color: white;
+}
+
+.fas{
+    margin-right: 6px;
+}
+
+.divisore{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    padding-top: 1.3em;
+    padding-bottom: 2.5em;
+}
+
+.copyright a{
+    color: white;
+}

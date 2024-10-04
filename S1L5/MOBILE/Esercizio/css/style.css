@@ -1,0 +1,232 @@
+/* Your styles here */
+
+/* ESSENDO CHE TUTTA LA PAGINA è MOBILE, POSSIAMO PENSARE DI RENDERE IL BODY UNA COLONNA UNICA, COSI TUTTO IL RESTO SARà FORMATTATO*/
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    /*DA RIMUOVERE A FINE */
+    /**/
+}
+
+
+/*ZONE HEADER*/
+.sectionLogo{
+    background-color: black;
+    text-align: center;
+    padding-top: 1.3em;
+    padding-bottom: 1.5em;
+
+}
+
+.sectionBanner{
+    background-image: url('./../images/banner.jpg');
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-origin: content-box;
+    background-size: contain;
+}
+
+
+.LogoImage{
+    width: 35%;
+
+}
+
+#H1Banner{
+    text-align: center;
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+.UnderTitleBanner{
+    padding-top: 4px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.8); /* Nero con 80% di trasparenza */
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.ButtonCenter{
+    text-align: center;
+    padding-top: 1.4em;
+    
+}
+
+.ButtonHeader{
+    background-color: #f04c2f ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:white;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px; /* Arrotonda gli angoli */
+    border: none; /* Rimuove il bordo */
+}
+
+/*FINE CSS PER HEADER*/
+
+/*INIZIO CSS PER MAIN*/
+
+.ClasseMain{
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+#FirstArticle{
+    margin-bottom: 25px;
+}
+
+h2{
+   color: #25a2c3; 
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   padding-top: 1.5em;
+}
+
+.TextSection{
+    padding-top: 1.2em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.CirclePhoto {
+        width: 250px; /* Imposta la larghezza desiderata */
+        height: 250px; /* Imposta l'altezza desiderata */
+        border-radius: 50%; /* Rende l'immagine circolare */
+        object-fit: cover; /* Mantiene le proporzioni senza distorsioni */
+}
+
+
+/*RED SECTION*/
+
+
+/*IL FONT-FAMILY è STATO RIPETUTO PER OGNUNO, PERCHé SE IN FUTURO VOLESSI SOSTITUIRE SOLO 1 FONT, NON AVREI PROBLEMI*/
+.RedSection{
+    background-color: #E22E12;
+    padding-bottom: 3em;
+}
+
+h3{
+    padding-top: 1.6em;
+    padding-bottom: 1.4em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 30px;
+
+}
+
+#PRedSection{
+    color:white;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+h4{
+    padding-top: 2em;
+    padding-bottom: 0.4em;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#CEOText{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+/*END RED SECTION*/
+
+/* INIZIO LAST SECTION*/
+.LastSection{
+    padding-top: 2.5em;
+    margin-bottom: 90px;;
+}
+
+.LastArticle{
+    margin-right: auto;
+    margin-left: auto;
+    width:380px;
+    border: 1px solid #ccc; /* Aggiunge un bordo grigio chiaro attorno */
+    padding-bottom: 2.5em;
+    margin-bottom: 30px;
+}
+
+.Photo{
+    width: 100%; /* L'immagine si adatta alla larghezza del contenitore */
+    height: 100%; /* L'immagine si adatta anche all'altezza del contenitore */
+    object-fit: cover; /* Copre tutto lo spazio disponibile tagliando l'immagine se necessario */
+    display: block;
+}
+
+/* FINE LAST SECTION*/
+
+/*FINE CSS PER MAIN*/
+/*INIZIO FOOTER SECTION*/
+.FooterSection{
+    background-color: #25a2c3;
+}
+
+#H1Footer{
+    padding-top: 1.5em;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+ul{
+    padding-top: 15px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+ul li a{
+    color: white;
+}
+
+.fas{
+    margin-right: 6px;
+}
+
+.divisore{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    padding-top: 1.3em;
+    padding-bottom: 2.5em;
+}
+
+.copyright a{
+    color: white;
+}
